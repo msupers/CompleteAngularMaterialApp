@@ -2,12 +2,16 @@
 
 # compiled output
 /dist
+/dist.zip
 /tmp
-/out-tsc
 
 # dependencies
 /node_modules
-
+/node_modules.zip
+/node_modules*
+/*bk
+/bk*
+/*.zip
 # IDEs and editors
 /.idea
 .project
@@ -23,17 +27,22 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+.vs/*
 
 # misc
 /.sass-cache
 /connect.lock
-/coverage
+/coverage/*
 /libpeerconnection.log
 npm-debug.log
-yarn-error.log
 testem.log
 /typings
 
-# System Files
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+#System Files
 .DS_Store
 Thumbs.db
+package-lock.json
